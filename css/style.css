@@ -1,0 +1,122 @@
+.container
+{
+    position: relative;
+
+    width: 960px;
+    height: 530px;
+    margin: 0 auto;
+
+    background: url('../images/BG.png') no-repeat;
+}
+.spinButton
+{
+    position: absolute;
+    top: 218px;
+    right: 38px;
+
+    width: 98px;
+    height: 98px;
+
+    border: none;
+    background: url('../images/BTN_spin.png') no-repeat;
+}
+.tablo1, .tablo2, .tablo3
+{
+    position: absolute;
+    top: 30px;
+
+    overflow: hidden;
+
+    width: 233px;
+    height: 467px;
+}
+.tablo1
+{
+    left: 70px;
+}
+.tablo2
+{
+    left: 311px;
+}
+.tablo3
+{
+    left: 555px;
+}
+.tablo1 p, .tablo2 p, .tablo3 p
+{
+    font-family: fantasy;
+    font-size: 150px;
+
+    margin-top: 55%;
+    margin-left: 33%;
+
+    color: #fff;
+}
+.tablo1img, .tablo2img, .tablo3img
+{
+    display: block;
+
+    height: 7440px;
+
+    /*background-position: center 750px;*/
+    margin-top: 0;
+}
+.disabled
+{
+    background: url('../images/BTN_spin_d.png') no-repeat;
+}
+.gameOver
+{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: -webkit-radial-gradient(circle, rgba(0, 0, 0, .4), rgba(0, 0, 0, 1));
+    background:      -o-radial-gradient(circle, rgba(0, 0, 0, .4), rgba(0, 0, 0, 1));
+    background:         radial-gradient(circle, rgba(0, 0, 0, .4), rgba(0, 0, 0, 1));
+}
+.gameOver span
+{
+    font-family: Arial;
+    font-size: 50px;
+    font-weight: 900;
+
+    display: block;
+
+    width: 305px;
+    margin: 22% auto 0;
+
+    color: #fff;
+}
+.gameOver p
+{
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: 900;
+
+    display: block;
+
+    width: 190px;
+    margin: 4% auto;
+
+    color: #fff;
+}
+.money
+{
+    font-family: sans-serif;
+    font-size: 30px;
+
+    color: #fff;
+}
+.anim
+{
+    -webkit-animation: move 1s ease-in-out .5s 2 alternate;
+         -o-animation: move 1s ease-in-out .5s 2 alternate;
+            animation: move 1s ease-in-out .5s 2 alternate;
+}
