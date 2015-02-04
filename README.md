@@ -1,6 +1,5 @@
 # One-armed Bandit
 #### версія 1.1
 
-Гра розроблена на JavaScript та jQuery.
-
-У наступній версії планується внесення змін у бізнес-логіку гри.
+Game developed with using JavaScript language and jQuery library.
+License: GPL
